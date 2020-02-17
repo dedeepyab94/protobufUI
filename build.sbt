@@ -32,8 +32,8 @@ lazy val core = (project in file("protobufui-core"))
         "org.scala-lang" % "scala-compiler" % scalaV,
         "org.scala-lang" % "scala-library" % scalaV,
         "org.scala-lang" % "scala-reflect" % scalaV,
-        "jline" % "jline" % "2.13",
-        "pl.codekratisti" %% "ipe-toolkit" % "0.1.12-SNAPSHOT"
+        "jline" % "jline" % "2.13"
+        //"pl.codekratisti" % "ipe-toolkit" % "0.1.12-SNAPSHOT"
       )
     }
   )
@@ -48,7 +48,7 @@ lazy val commonSettings = Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test",
     "org.scalatest" %% "scalatest" % "2.2.1" % "test",
-    "org.mockito" % "mockito-core" % "2.0.3-beta" % "test"
+      "org.mockito" % "mockito-core" % "2.0.30-beta" % "test"
   )
 )
 //TODO wyczyscic caly plik ze smieci
